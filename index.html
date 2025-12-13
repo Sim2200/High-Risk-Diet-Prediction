@@ -7528,14 +7528,12 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">¶</a></h1><table>
-<thead>
+<!-- Table of Contents -->
+<table border="1" cellpadding="5" cellspacing="0">
 <tr>
 <th>Section</th>
 <th>Title</th>
 </tr>
-</thead>
-<tbody>
 <tr>
 <td><a href="#introduction">Introduction</a></td>
 <td>Introduction</td>
@@ -7545,7 +7543,7 @@ a.anchor-link {
 <td>1. Dataset Overview <br/> 2. Download and Import the Data <br/> 3. Understanding the Data</td>
 </tr>
 <tr>
-<td><a href="#part-2-data-cleaning--preprocessing">Part 2: Data Cleaning &amp; Preprocessing</a></td>
+<td><a href="#part-2-data-cleaning-preprocessing">Part 2: Data Cleaning &amp; Preprocessing</a></td>
 <td>1. Filtering and Preparing Raw Data <br/> 2. Feature Engineering <br/> 3. Data Transformation</td>
 </tr>
 <tr>
@@ -7565,14 +7563,13 @@ a.anchor-link {
 <td>1. Observed Patterns in High-Risk Diet Predictions <br/> 2. Implications for Public Health Policy <br/> 3. Limitations of the Study <br/> 4. Future Work <br/> 5. Conclusion</td>
 </tr>
 <tr>
-<td><a href="#part-7-next-steps--insights">Part 7: Next Steps &amp; Insights</a></td>
+<td><a href="#part-7-next-steps-insights">Part 7: Next Steps &amp; Insights</a></td>
 <td>1. Key Insights from the Analysis <br/> 2. Recommended Extensions <br/> 3. Visualization &amp; Insights <br/> 4. Summary &amp; Key Takeaways</td>
 </tr>
 <tr>
 <td><a href="#references">References</a></td>
 <td>References</td>
 </tr>
-</tbody>
 </table>
 </div>
 </div>
@@ -7584,7 +7581,8 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Introduction"><strong>Introduction</strong><a class="anchor-link" href="#Introduction">¶</a></h2><p>The purpose of this tutorial is to guide you through the complete data science pipeline, from raw data collection to predictive modeling and interpretation. The data science lifecycle goes as follows:</p>
+<h2 id="introduction">Introduction</h2>
+<p>The purpose of this tutorial is to guide you through the complete data science pipeline, from raw data collection to predictive modeling and interpretation. The data science lifecycle goes as follows:</p>
 <ol>
 <li>Data collection</li>
 <li>Data cleaning &amp; preprocessing</li>
@@ -7604,7 +7602,8 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Part-1:-Data-Collection"><strong>Part 1: Data Collection</strong><a class="anchor-link" href="#Part-1:-Data-Collection">¶</a></h2><h3 id="Dataset-Overview"><strong>Dataset Overview</strong><a class="anchor-link" href="#Dataset-Overview">¶</a></h3><p>The dataset is derived from the <strong>FAO Food Balance Sheets (FAOSTAT)</strong>, which provide standardized country-level food supply data.<br>
+<h2 id="part-1-data-collection">Part 1: Data Collection</h2>
+<h3 id="Dataset-Overview"><strong>Dataset Overview</strong><a class="anchor-link" href="#Dataset-Overview">¶</a></h3><p>The dataset is derived from the <strong>FAO Food Balance Sheets (FAOSTAT)</strong>, which provide standardized country-level food supply data.<br>
 FAO is a globally recognized authority, making this dataset reliable for cross-country and temporal nutritional analysis.</br></p>
 <p>This dataset contains country-level statistics, where <strong>each row represents one country in a specific year</strong>. The features include:</p>
 <ul>
@@ -8030,7 +8029,8 @@ The dataset contains metadata (Area, Element, Item, Year), the measured value, a
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Part-2:-Data-Cleaning-&amp;-Preprocessing"><strong>Part 2: Data Cleaning &amp; Preprocessing</strong><a class="anchor-link" href="#Part-2:-Data-Cleaning-&amp;-Preprocessing">¶</a></h2><p>In this section, we clean and prepare the FAOSTAT food supply dataset to analyze dietary health risks. We focus on three macronutrients: <strong>calories, protein, and fat</strong> and derive additional metrics to quantify diet healthiness.</p>
+<h2 id="part-2-data-cleaning-preprocessing">Part 2: Data Cleaning &amp; Preprocessing</h2>
+<p>In this section, we clean and prepare the FAOSTAT food supply dataset to analyze dietary health risks. We focus on three macronutrients: <strong>calories, protein, and fat</strong> and derive additional metrics to quantify diet healthiness.</p>
 <h3 id="Step-1:-Filter-Relevant-Nutrients"><strong>Step 1: Filter Relevant Nutrients</strong><a class="anchor-link" href="#Step-1:-Filter-Relevant-Nutrients">¶</a></h3><p>We retain only the following nutrients for analysis:</p>
 <ul>
 <li><code>Food supply (kcal/capita/day)</code></li>
