@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>DATA602_Final_Project</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>index</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7528,87 +7528,52 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Table-of-Contents"><strong>Table of Contents</strong><a class="anchor-link" href="#Table-of-Contents">¶</a></h2><h3 id="Introduction"><strong>Introduction</strong><a class="anchor-link" href="#Introduction">¶</a></h3><h3 id="Part-1:-Data-Collection"><strong>Part 1: Data Collection</strong><a class="anchor-link" href="#Part-1:-Data-Collection">¶</a></h3><ol>
-<li><strong>Dataset Overview</strong></li>
-<li><strong>Download and Import the Data</strong></li>
-<li><strong>Understanding the Data</strong></li>
-</ol>
-<h3 id="Part-2:-Data-Cleaning-&amp;-Preprocessing"><strong>Part 2: Data Cleaning &amp; Preprocessing</strong><a class="anchor-link" href="#Part-2:-Data-Cleaning-&amp;-Preprocessing">¶</a></h3><ol>
-<li><p><strong>Filtering and Preparing Raw Data</strong></p>
-<ul>
-<li>Filter Relevant Nutrients</li>
-<li>Pivot and Aggregate Data</li>
-<li>Handle Missing Values</li>
-</ul>
-</li>
-<li><p><strong>Feature Engineering</strong></p>
-<ul>
-<li>Create Macronutrient Ratios</li>
-<li>Compute FastFoodScore</li>
-<li>Create Binary Target Variable (HighRiskDiet)</li>
-</ul>
-</li>
-<li><p><strong>Data Transformation</strong></p>
-<ul>
-<li>Encode Categorical Variables</li>
-<li>Scale Numeric Features</li>
-<li>Remove Outliers</li>
-<li>Assign Diet Risk Categories</li>
-<li>Finalize Country List</li>
-</ul>
-</li>
-</ol>
-<h3 id="Part-3:-Exploratory-Data-Analysis-(EDA)"><strong>Part 3: Exploratory Data Analysis (EDA)</strong><a class="anchor-link" href="#Part-3:-Exploratory-Data-Analysis-(EDA)">¶</a></h3><ol>
-<li><p><strong>Distribution of Macronutrients</strong></p>
-</li>
-<li><p><strong>FastFoodScore Distribution</strong></p>
-</li>
-<li><p><strong>Correlation Analysis</strong></p>
-<ul>
-<li>Correlation Heatmap</li>
-<li>FastFoodScore by Diet Risk Category</li>
-<li>Macronutrient Ratios vs Diet Risk</li>
-</ul>
-</li>
-<li><p><strong>Country-Level and Temporal Analysis</strong></p>
-<ul>
-<li>Number of Countries per Diet Category</li>
-<li>FastFoodScore Trends Over Years</li>
-<li>Protein vs Fat Ratio by Diet Category</li>
-</ul>
-</li>
-</ol>
-<h3 id="Part-4:-Machine-Learning-Modeling"><strong>Part 4: Machine Learning Modeling</strong><a class="anchor-link" href="#Part-4:-Machine-Learning-Modeling">¶</a></h3><ol>
-<li><strong>Feature Selection and Target Definition</strong></li>
-<li><strong>Train-Test Split</strong></li>
-<li><strong>Model Initialization and Training</strong></li>
-<li><strong>Model Evaluation and Visualization</strong></li>
-<li><strong>Feature Importance Analysis</strong></li>
-<li><strong>Model Interpretability (SHAP – Random Forest)</strong></li>
-<li><strong>Predictions for All Countries</strong></li>
-</ol>
-<h3 id="Part-5:-Results-and-Visualizations"><strong>Part 5: Results and Visualizations</strong><a class="anchor-link" href="#Part-5:-Results-and-Visualizations">¶</a></h3><ol>
-<li><strong>Classification Performance Metrics</strong></li>
-<li><strong>Confusion Matrices</strong></li>
-<li><strong>ROC Curves</strong></li>
-<li><strong>Feature Importance Visualizations</strong></li>
-<li><strong>SHAP Summary Plot</strong></li>
-<li><strong>Predicted High-Risk Diets Across Countries</strong></li>
-</ol>
-<h3 id="Part-6:-Discussion"><strong>Part 6: Discussion</strong><a class="anchor-link" href="#Part-6:-Discussion">¶</a></h3><ol>
-<li><strong>Observed Patterns in High-Risk Diet Predictions</strong></li>
-<li><strong>Implications for Public Health Policy</strong></li>
-<li><strong>Limitations of the Study</strong></li>
-<li><strong>Future Work</strong></li>
-<li><strong>Conclusion</strong></li>
-</ol>
-<h3 id="Part-7:-Next-Steps-&amp;-Insights"><strong>Part 7: Next Steps &amp; Insights</strong><a class="anchor-link" href="#Part-7:-Next-Steps-&amp;-Insights">¶</a></h3><ol>
-<li><strong>Key Insights from the Analysis</strong></li>
-<li><strong>Recommended Extensions</strong></li>
-<li><strong>Visualization &amp; Insights</strong></li>
-<li><strong>Summary &amp; Key Takeaways</strong></li>
-</ol>
-<h3 id="References"><strong>References</strong><a class="anchor-link" href="#References">¶</a></h3><hr/>
+<h1 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">¶</a></h1><table>
+<thead>
+<tr>
+<th>Section</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#introduction">Introduction</a></td>
+<td>Introduction</td>
+</tr>
+<tr>
+<td><a href="#part-1-data-collection">Part 1: Data Collection</a></td>
+<td>1. Dataset Overview <br/> 2. Download and Import the Data <br/> 3. Understanding the Data</td>
+</tr>
+<tr>
+<td><a href="#part-2-data-cleaning--preprocessing">Part 2: Data Cleaning &amp; Preprocessing</a></td>
+<td>1. Filtering and Preparing Raw Data <br/> 2. Feature Engineering <br/> 3. Data Transformation</td>
+</tr>
+<tr>
+<td><a href="#part-3-exploratory-data-analysis-eda">Part 3: Exploratory Data Analysis (EDA)</a></td>
+<td>1. Distribution of Macronutrients <br/> 2. FastFoodScore Distribution <br/> 3. Correlation Analysis <br/> 4. Country-Level and Temporal Analysis</td>
+</tr>
+<tr>
+<td><a href="#part-4-machine-learning-modeling">Part 4: Machine Learning Modeling</a></td>
+<td>1. Feature Selection and Target Definition <br/> 2. Train-Test Split <br/> 3. Model Initialization and Training <br/> 4. Model Evaluation and Visualization <br/> 5. Feature Importance Analysis <br/> 6. Model Interpretability (SHAP – Random Forest) <br/> 7. Predictions for All Countries</td>
+</tr>
+<tr>
+<td><a href="#part-5-results-and-visualizations">Part 5: Results and Visualizations</a></td>
+<td>1. Classification Performance Metrics <br/> 2. Confusion Matrices <br/> 3. ROC Curves <br/> 4. Feature Importance Visualizations <br/> 5. SHAP Summary Plot <br/> 6. Predicted High-Risk Diets Across Countries</td>
+</tr>
+<tr>
+<td><a href="#part-6-discussion">Part 6: Discussion</a></td>
+<td>1. Observed Patterns in High-Risk Diet Predictions <br/> 2. Implications for Public Health Policy <br/> 3. Limitations of the Study <br/> 4. Future Work <br/> 5. Conclusion</td>
+</tr>
+<tr>
+<td><a href="#part-7-next-steps--insights">Part 7: Next Steps &amp; Insights</a></td>
+<td>1. Key Insights from the Analysis <br/> 2. Recommended Extensions <br/> 3. Visualization &amp; Insights <br/> 4. Summary &amp; Key Takeaways</td>
+</tr>
+<tr>
+<td><a href="#references">References</a></td>
+<td>References</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
@@ -7639,8 +7604,8 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Part-1:-Data-Collection"><strong>Part 1: Data Collection</strong><a class="anchor-link" href="#Part-1:-Data-Collection">¶</a></h2><h3 id="Dataset-Overview"><strong>Dataset Overview</strong><a class="anchor-link" href="#Dataset-Overview">¶</a></h3><p>The dataset is derived from the <strong>FAO Food Balance Sheets (FAOSTAT)</strong>, which provide standardized country-level food supply data.<br/>
-FAO is a globally recognized authority, making this dataset reliable for cross-country and temporal nutritional analysis.</p>
+<h2 id="Part-1:-Data-Collection"><strong>Part 1: Data Collection</strong><a class="anchor-link" href="#Part-1:-Data-Collection">¶</a></h2><h3 id="Dataset-Overview"><strong>Dataset Overview</strong><a class="anchor-link" href="#Dataset-Overview">¶</a></h3><p>The dataset is derived from the <strong>FAO Food Balance Sheets (FAOSTAT)</strong>, which provide standardized country-level food supply data.<br>
+FAO is a globally recognized authority, making this dataset reliable for cross-country and temporal nutritional analysis.</br></p>
 <p>This dataset contains country-level statistics, where <strong>each row represents one country in a specific year</strong>. The features include:</p>
 <ul>
 <li><strong>Food supply</strong> (kcal/capita/day)</li>
@@ -8051,10 +8016,10 @@ max     NaN
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Initial Data Shape:</strong> (4476, 15)<br/>
-The dataset has 4476 rows and 15 columns. Each row represents a country-item-year combination.</p>
-<p><strong>Columns:</strong><br/>
-The dataset contains metadata (Area, Element, Item, Year), the measured value, and flags indicating estimated data.</p>
+<p><strong>Initial Data Shape:</strong> (4476, 15)<br>
+The dataset has 4476 rows and 15 columns. Each row represents a country-item-year combination.</br></p>
+<p><strong>Columns:</strong><br>
+The dataset contains metadata (Area, Element, Item, Year), the measured value, and flags indicating estimated data.</br></p>
 </div>
 </div>
 </div>
@@ -8318,8 +8283,8 @@ Element  Protein supply quantity (g/capita/day)
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Pivoting converts the dataset to have columns for each nutrient while keeping country, year, and item as rows.<br/>
-Now each row represents a specific food item in a given country-year.</p>
+<p>Pivoting converts the dataset to have columns for each nutrient while keeping country, year, and item as rows.<br>
+Now each row represents a specific food item in a given country-year.</br></p>
 <p>Aggregating by country and year sums nutrient supply across all food items, giving total calories, protein, and fat per country-year.</p>
 <p>This reduces granularity but simplifies analysis at the country-year level.</p>
 </div>
@@ -11232,8 +11197,8 @@ Passing `palette` without assigning `hue` is deprecated and will be removed in v
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>All analyses were performed using Python (pandas, scikit-learn, seaborn, SHAP).<br/>
-Random seeds were fixed where applicable to ensure reproducibility.</p>
+<p>All analyses were performed using Python (pandas, scikit-learn, seaborn, SHAP).<br>
+Random seeds were fixed where applicable to ensure reproducibility.</br></p>
 <hr/>
 </div>
 </div>
