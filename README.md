@@ -6,8 +6,8 @@ three classifiers with stratified cross-validation, and SHAP interpretation.
 
 Final project for DATA602 (University of Maryland), by **Simran Kharbanda**.
 
-📓 **[Read the full notebook as a web page](https://sim2200.github.io/Final-Project-DATA602/)** ·
-[Open in Colab](https://colab.research.google.com/github/Sim2200/Final-Project-DATA602/blob/main/DATA602_Final_Project.ipynb)
+📓 **[Read the full notebook as a web page](https://sim2200.github.io/High-Risk-Diet-Prediction/)** ·
+[Open in Colab](https://colab.research.google.com/github/Sim2200/High-Risk-Diet-Prediction/blob/main/DATA602_Final_Project.ipynb)
 
 | FastFoodScore over time | Share of high-risk years per country |
 |---|---|
@@ -74,7 +74,7 @@ prediction task meaningful is the first item below.
 
 ```
 DATA602_Final_Project.ipynb   the full tutorial-style notebook (Colab)
-index.html                    the notebook rendered as a page, served at sim2200.github.io/Final-Project-DATA602
+index.html                    the notebook rendered as a page, served at sim2200.github.io/High-Risk-Diet-Prediction
 figures/                      three figures exported from the notebook for this README
 ```
 
